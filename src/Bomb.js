@@ -2,7 +2,7 @@
 import React from 'react';
 
 
-function Bomb() {
+export default class Bomb extends Componen {
   return (
     <div>
       <p>bomb</p>
