@@ -2,4 +2,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-export default class ImageSlider extends Componen
+export default class ImageSlider extends Componen {
+  
+  render(
+    <div>imageslider</div>
+    )
+}
