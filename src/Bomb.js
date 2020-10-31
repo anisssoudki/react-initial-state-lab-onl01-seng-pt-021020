@@ -1,11 +1,18 @@
-// your Bomb code here!
-import React from 'react';
+import React, { Component } from 'react'
 
+export default class Bomb extends Component {
 
-export default class Bomb extends Componen {
-  render() {
-    <div>
-      <p>bomb</p>
-    </div>
-  }
+    constructor(props) { //props that the component gets from its parent
+        super()
+        this.state = { //define initial state with a key of 'someKey' set to the 'someValue' prop
+        secondsLeft: props.initialCount
+        }
+      }
+    
+    render() {
+        const message = this.state.secondsLeft === 0 ? 'Boom!' : `${this.state.secondsLeft} seconds left before I go boom!`;
+        return (
+            <div>{message}</div>
+        )
+    }
 }
