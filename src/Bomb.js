@@ -3,9 +3,9 @@ import React from 'react';
 
 
 export default class Bomb extends Componen {
-  return (
+  render() {
     <div>
       <p>bomb</p>
     </div>
-    )
+  }
 }
