@@ -6,7 +6,7 @@ export default class ImageSlider extends Componen {
   
  render() {
     <div>
-      <p>bomb</p>
+      <p>imageslider</p>
     </div>
   }
 }
