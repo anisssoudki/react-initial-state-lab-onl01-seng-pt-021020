@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom';
 
 export default class ImageSlider extends Componen {
   
-  render(
-    <div>imageslider</div>
-    )
+ render() {
+    <div>
+      <p>bomb</p>
+    </div>
+  }
 }
